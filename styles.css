@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   --color-primary: #2c5f7d;
   --color-primary-hover: #234d64;
@@ -18,12 +17,12 @@
   --color-success: #16a34a;
 }
 
-/* Removendo todas as barras de rolagem */
+/* Removendo overflow hidden e ajustando body para mobile */
 html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -35,7 +34,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .container {
