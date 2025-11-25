@@ -341,7 +341,7 @@ body {
 
 @media (max-width: 480px) {
  body {
-    top: 20px;
+    margin-top: -20px;
     padding: 15px;
     align-items: center;
   }
