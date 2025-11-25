@@ -5,15 +5,17 @@
 
 const USUARIOS_AUTORIZADOS = [
   {
-    username: "admin",
-    password: "admin123",
+    username: "felipe",
+    password: "kaua22",
   },
   {
-    username: "usuario",
-    password: "senha123",
+    username: "rayana",
+    password: "6680"
   },
-  // Adicione mais usuários aqui seguindo o mesmo padrão:
-  // { username: 'seu_usuario', password: 'sua_senha' }
+  {
+    username: "anon",
+    password: "anon23"
+  },
 ]
 
 // ==========================================
